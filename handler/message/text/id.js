@@ -109,7 +109,7 @@ Untuk menghapus pesan bot (balas pesan bot dengan #del)`
 exports.textDonasi = () => {
     return `
 Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui link berikut:
-
+1. Saweria : https://saweria.co/fandystore
 
 Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 
