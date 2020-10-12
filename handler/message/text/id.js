@@ -23,66 +23,63 @@ Best regards, Yoga Sakti.`
 exports.textMenu = (pushname) => {
     return `
 Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada bot ini!✨
+Berikut adalah beberapa fitur yang ada pada bot ini!
 
 Sticker Creator:
+
 1. *#sticker*
-Untuk merubah gambar menjadi sticker. 
-Penggunaan: kirim gambar dengan caption #sticker atau balas gambar yang sudah dikirim dengan #sticker
+𝙼𝚎𝚗𝚐𝚞𝚋𝚊𝚑 𝚐𝚊𝚖𝚋𝚊𝚛 𝚖𝚎𝚗𝚓𝚊𝚍𝚒 𝚜𝚝𝚒𝚌𝚔𝚎𝚛.
 
 2. *#sticker* _<Url Gambar>_
-Untuk merubah gambar dari url menjadi sticker. 
-Penggunaan: 
+𝙼𝚎𝚗𝚐𝚞𝚋𝚊𝚑 𝚐𝚊𝚖𝚋𝚊𝚛 𝚍𝚊𝚛𝚒 𝚞𝚛𝚕.
 
-3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
-Untuk merubah gif menjadi sticker (Giphy Only)
-Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
+3. *#gifsticker* _<Giphy URL>_
+𝙼𝚎𝚗𝚐𝚞𝚋𝚊𝚑 𝚐𝚒𝚏 𝚖𝚎𝚗𝚓𝚊𝚍𝚒 𝚜𝚝𝚒𝚌𝚔𝚎𝚛 (𝚌𝚞𝚖𝚊 𝚏𝚘𝚛𝚖𝚊𝚝 𝚐𝚒𝚙𝚑𝚢).
+𝙲𝚘𝚗𝚝𝚘𝚑 𝚙𝚎𝚜𝚊𝚗 : *#gifsticker https://media.giphy.com/media/abcd/giphy.gif*.
 
-4. *#memesticker* _<teks atas>_ | _<teks bawah>_
-Untuk membuat sticker meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+4. *#meme* _<teks atas>_ | _<teks bawah>_
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚖𝚋𝚞𝚊𝚝 𝚝𝚞𝚕𝚒𝚜𝚊𝚗 𝚊𝚝𝚊𝚜 𝚋𝚊𝚠𝚊𝚑 𝚙𝚊𝚍𝚊 𝚜𝚝𝚒𝚌𝚔𝚎𝚛 / 𝚐𝚊𝚖𝚋𝚊𝚛.
+𝙲𝚘𝚗𝚝𝚘𝚑 𝚙𝚎𝚜𝚊𝚗 : *#meme aku atas | kamu bawah*, 𝙰𝚝𝚊𝚞 𝚓𝚞𝚐𝚊 𝚋𝚒𝚜𝚊 𝚛𝚎𝚙𝚕𝚢 / 𝚖𝚎𝚖𝚋𝚊𝚕𝚊𝚜 𝚐𝚊𝚖𝚋𝚊𝚛 𝚢𝚊𝚗𝚐 𝚜𝚞𝚍𝚊𝚑 𝚊𝚍𝚊.
 
 Downloader:
+
 1. *#tiktok* _<tiktok url>_
-Untuk mengunduh video dari video tiktok.
-Penggunaan: kirim pesan dengan format *#tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922* 
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚗𝚐𝚞𝚗𝚍𝚞𝚑 𝚟𝚒𝚍𝚒𝚘 𝚍𝚊𝚛𝚒 𝚝𝚒𝚔𝚝𝚘𝚔.
+Penggunaan: kirim pesan dengan format *#tiktok https://vt.tiktok.com/.../* 
 
 2. *#fb* _<post/video url>_
-Untuk mengunduh video dari Facebook.
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚗𝚐𝚞𝚗𝚍𝚞𝚑 𝚟𝚒𝚍𝚒𝚘 𝚍𝚊𝚛𝚒 𝚏𝚊𝚌𝚎𝚋𝚘𝚘𝚔.
 Penggunaan: kirim pesan dengan format *#fb https://www.facebook.com/.....*
 
 3. *#ig* _<instagram post url>_
-Untuk mengunduh photo dan video dari instagram.
-Penggunaan: kirim pesan dengan format *#ig https://www.instagram.com/p/BPOd1vhDMIp/*
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚗𝚐𝚞𝚗𝚍𝚞𝚑 𝚙𝚑𝚘𝚝𝚘 𝚍𝚊𝚗 𝚟𝚒𝚍𝚒𝚘 𝚍𝚊𝚛𝚒 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖.
+Penggunaan: kirim pesan dengan format *#ig https://www.instagram.com/.../*
 
 4. *#twt* _<twitter post url>_
 Untuk mengunduh photo dan video dari Twitter.
-Penggunaan: kirim pesan dengan format *#twt https://twitter.com/ntsana_/status/1306108656887324672*
+Penggunaan: kirim pesan dengan format *#twt https://twitter.com/../..*
 
 Lain-lain:
+
 1. *#translate* _<kode bahasa>_
-Untuk mengartikan pesan menjadi bahasa yang ditentukan.
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚗𝚐𝚊𝚛𝚝𝚒𝚔𝚊𝚗 𝚋𝚊𝚑𝚊𝚜𝚊 𝚢𝚐 𝚍𝚒𝚝𝚎𝚗𝚝𝚞𝚔𝚊𝚗.
 Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*#translate id*_ <- id adalah kode bahasa. kode bahasa dapat dilihat di *https://bit.ly/33FVldE*
 
 2. *#resi* _<kurir>_ _<nomer resi>_
-Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
+𝚄𝚗𝚝𝚞𝚔 𝚖𝚎𝚖𝚎𝚛𝚒𝚔𝚜𝚊 𝚜𝚝𝚊𝚝𝚞𝚜 𝚙𝚎𝚗𝚐𝚒𝚛𝚒𝚖𝚊𝚗 𝚋𝚊𝚛𝚊𝚗𝚐, 𝚍𝚊𝚏𝚝𝚊𝚛 𝚔𝚞𝚛𝚒𝚛 : 𝚓𝚗𝚎, 𝚙𝚘𝚜, 𝚝𝚒𝚔𝚒, 𝚠𝚊𝚑𝚊𝚗𝚊, 𝚓𝚗𝚝, 𝚛𝚙𝚡, 𝚜𝚊𝚙, 𝚜𝚒𝚌𝚎𝚙𝚊𝚝, 𝚙𝚌𝚙, 𝚓𝚎𝚝, 𝚍𝚜𝚎, 𝚏𝚒𝚛𝚜𝚝, 𝚗𝚒𝚗𝚓𝚊, 𝚕𝚒𝚘𝚗, 𝚒𝚍𝚕, 𝚛𝚎𝚡.
 Penggunaan: kirim pesan dengan format _*#resi jne 1238757632*_
 
-3. *#meme* _<teks atas>_ | _<teks bawah>_
-Untuk membuat meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
-
-4. *#ceklokasi*
-Cek lokasi penyebaran covid-19 di daerah sekitarmu (kelurahan).
+3. *#ceklokasi*
+𝙲𝚎𝚔 𝚕𝚘𝚔𝚊𝚜𝚒 𝚙𝚎𝚗𝚢𝚎𝚋𝚊𝚛𝚊𝚗 𝚌𝚘𝚟𝚒𝚍-𝟷𝟿 𝚍𝚒 𝚍𝚊𝚎𝚛𝚊𝚑 𝚜𝚎𝚔𝚒𝚝𝚊𝚛𝚖𝚞 (𝚔𝚎𝚕𝚞𝚛𝚊𝚑𝚊𝚗).
 Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim dengan _*#ceklokasi*_
 
-5. *#tnc*
-Menampilkan Syarat dan Kondisi Bot.
+4. *#tnc*
+𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚜𝚢𝚊𝚛𝚊𝚝 𝚍𝚊𝚗 𝚔𝚘𝚗𝚍𝚒𝚜𝚒 𝚋𝚘𝚝.
 
-6. *#donasi*
-menampilkan informasi donasi.
+5. *#donasi*
+𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚒𝚗𝚏𝚘𝚖𝚊𝚜𝚒 𝚍𝚘𝚗𝚊𝚜𝚒
 
-Hope you have a great day!✨`
+𝙃𝙤𝙥𝙚 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙖 𝙜𝙧𝙚𝙖𝙩 𝙙𝙖𝙮!✨`
 }
 
 exports.textAdmin = () => {
@@ -110,5 +107,6 @@ Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat m
 
 Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 
-Terimakasih.`
+Terimakasih,
+Fandy.`
 }
