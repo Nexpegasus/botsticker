@@ -78,7 +78,8 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                 const mediaData = await decryptMedia(encryptMedia, uaOverride)
                 const imageBase64 = `data:${_mimetype};base64,${mediaData.toString('base64')}`
                 client.sendImageAsSticker(from, imageBase64).then(() => {
-                    client.reply(from, 'Here\'s your sticker')
+                    client.reply(from, 'Ni Stikernya Woi :)')
+                    client.reply(from, `Sticker Processed for ${processTime(t, moment())} Second`)
                     console.log(`Sticker Processed for ${processTime(t, moment())} Second`)
                 })
             } else if (args[0] === 'nobg') {
