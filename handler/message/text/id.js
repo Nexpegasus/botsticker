@@ -99,9 +99,6 @@ Untuk mempromosikan member menjadi Admin grup.
 3. *#demote* @user
 Untuk demosikan Admin grup.
 
-4. *#tagall*
-Untuk mention semua member grup. (Premium Only)
-
 5. *#del*
 Untuk menghapus pesan bot (balas pesan bot dengan #del)`
 }
