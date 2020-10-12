@@ -16,7 +16,7 @@ By using this source code / bot, you agree to the following Terms and Conditions
 Source Code BOT: https://github.com/YogaSakti/imageToSticker
 NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
 
-Best regards, Yoga Sakti.`
+Best regards, Fandy.`
 }
 
 exports.textMenu = (pushname) => {
